@@ -1,0 +1,76 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    text-align: center;
+    background: #fff;
+    padding: 2rem;
+    border-radius: 16px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    width: 90%;
+  }
+  
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    color: #333;
+  }
+  
+  .trivia-box {
+    margin-bottom: 1rem;
+  }
+  
+  .answer-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .btn {
+    padding: 0.8rem 1.2rem;
+    border: none;
+    border-radius: 10px;
+    background-color: #e0e0e0;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.3s;
+  }
+  
+  .btn:hover {
+    background-color: #d1d1d1;
+  }
+  
+  .correct {
+    background-color: #a5d6a7;
+    color: #155724;
+  }
+  
+  .wrong {
+    background-color: #ef9a9a;
+    color: #721c24;
+  }
+  
+  #next-btn {
+    margin-top: 1rem;
+    padding: 0.6rem 1.5rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    display: none;
+  }
+  
+  #next-btn:hover {
+    background-color: #0056b3;
+  }
+  
